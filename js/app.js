@@ -10,17 +10,16 @@ for (let i=0; i<100; i++){
     const resto4 = num % 15;
 
 
-    if (resto4 === 0){
-        console.log('FIZZBUZZ')
-    }
-
-    else if (resto1 === 0){
+    if (resto1 === 0){
         console.log('FIZZ')
     }
 
-    else (resto2 === 0){
-        const resto2 = num % 5;
-        console.log('BUZZ');
+    else if (resto2 === 0){
+        console.log('BUZZ')
+    }
+
+    else (resto4 === 0){
+        console.log('FIZZBUZZ');
     };
 
     
